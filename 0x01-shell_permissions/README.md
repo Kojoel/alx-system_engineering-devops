@@ -11,4 +11,5 @@ Task8 - chmod 007 hello
 Task9 - chmod 753 hello
 Task10 - chmod --reference=olleh hello
 Task11 - chmod -R ugo+X .
-Task12 - mkdir -m 751 my_dir 
+Task12 - mkdir -m 751 my_dir
+Task13 - chgrp school hello 
