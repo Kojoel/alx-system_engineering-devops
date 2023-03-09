@@ -16,3 +16,4 @@ Task13 - chgrp school hello
 Task14 - chown -hR vincent:staff .
 Task15 - chown -h vincent:staff _hello
 Task16 - chown --from=guillaume betty hello
+Task17 - telnet towel.blinkenlights.nl
