@@ -15,7 +15,7 @@ Task11 - find . -type d ! -path . -print | wc -l
 Task12 - ls -t | head
 Task13 - sort | uniq -u
 Task14 - grep "root"/etc/passwd
-Task15 - grep -c "bin"/etc/passwd
+Task15 - grep -c -i "bin" /etc/passwd
 Task16 - grep -i "root" -A 3 /etc/passwd
 Task17 - grep -v "bin"/etc/passwd
 Task18 - grep -i "^[a-z]" /etc/ssh/sshd_config
