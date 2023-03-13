@@ -18,7 +18,7 @@ Task14 - grep "root"/etc/passwd
 Task15 - grep -c "bin"/etc/passwd
 Task16 - grep -A 3 "root"/etc/passwd
 Task17 - grep -v "bin"/etc/passwd
-Task18 - grep -i "^[a-z]" /etc/ssh/sshd_config
+Task18 - grep ^ [[:alpha:]] /ect/passwd
 Task19 - tr 'A' 'z' | tr 'c' 'e'
 Task20 - tr -d "cC"
 Task21 - rev
