@@ -23,3 +23,7 @@ Task19 - tr "A" "Z" | tr "c" "e"
 Task20 - tr -d "cC"
 Task21 - rev
 Task22 - cut -d ':' -f 1,6 /etc/passwd | sort
+Task23 - find . -empty | rev | cut -d '/' -f 1 | rev
+Task24 - find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+Task25 - cut -c 1 | paste -s -d ''
+Task26 - tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
