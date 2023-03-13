@@ -13,3 +13,4 @@ Task9 - tail -n 1 < iacta >> iacta
 Task10 - find -name *.js -type f -delete
 Task11 - find . -type d ! -path . -print | wc -l
 Task12 - ls -t | head
+Task13 - sort | uniq -u
