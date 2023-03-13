@@ -12,3 +12,4 @@ Task8 - ls -la > ls_cwd_content
 Task9 - tail -n 1 < iacta >> iacta
 Task10 - find -name *.js -type f -delete
 Task11 - find . -type d ! -path . -print | wc -l
+Task12 - ls -t | head
