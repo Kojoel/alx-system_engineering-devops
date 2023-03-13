@@ -14,3 +14,12 @@ Task10 - find -name *.js -type f -delete
 Task11 - find . -type d ! -path . -print | wc -l
 Task12 - ls -t | head
 Task13 - sort | uniq -u
+Task14 - grep "root"/etc/passwd
+Task15 - grep -c "bin"/etc/passwd
+Task16 - grep -A 3 "root"/etc/passwd
+Task17 - grep -v "bin"/etc/passwd
+Task18 - grep ^ [[:alpha:]] /ect/passwd
+Task19 - tr 'A' 'z' | tr 'c' 'e'
+Task20 - tr -d "cC"
+Task21 - rev
+Task22 - cut -d ':' -f 1,6 /etc/passwd | sort
