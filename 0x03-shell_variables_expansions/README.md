@@ -12,4 +12,4 @@ Task9 -  echo $(($POWER/$DIVIDE))
 Task10 - echo $(($BREATH**$LOVE)) 
 Task11 - echo $((2#$BINARY))
 Task12 - echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
-Task13 - printf "%.2f" $NUM
+Task13 - printf "%.2f\n" $NUM
