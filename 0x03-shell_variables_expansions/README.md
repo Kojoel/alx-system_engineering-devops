@@ -13,3 +13,7 @@ Task10 - echo $(($BREATH**$LOVE))
 Task11 - echo $((2#$BINARY))
 Task12 - echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
 Task13 - printf "%.2f\n" $NUM
+Task14 - printf "%X\n" $DECIMAL
+Task15 - tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m} | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo{N..Z} $(echo {A..N}) tr -d ' '`
+Task16 - perl -lne 'print if $. % 2 ==1'
+Task17 - echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $$STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol') 
